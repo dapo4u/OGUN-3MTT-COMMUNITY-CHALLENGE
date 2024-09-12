@@ -14,6 +14,10 @@
 
 # THE WEB ADDRESS  OF THE SOLUTION IS AT https://leetcode.com/problems/two-sum/submissions/1387886359/
 # THE PROGRAMMING LANGUAGE IS PYTHON3 AT THE LEETCODE SITE
-
+# How it Works:The idea is that 2 numbers that must be found in the array of numbers must add up to the given target number .
+if the given target number is 9 ,then 2 and 7 present in the array of numbers are the only 2 numbers that sum up to the target number which is 9.
+First Loop: The first loop adds all the numbers and their indices to the dictionary d.
+Second Loop: The second loop checks if the complement (target - nums[i]) exists in the dictionary and ensures it's not the same number (i.e., i != d[x]).
+Return Indices: If a valid pair is found, the indices are returned; otherwise, None is returned if no pair matches.
 
 
