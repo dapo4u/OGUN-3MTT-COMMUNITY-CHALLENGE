@@ -15,7 +15,8 @@
 
 
 
-# class Solution(object):
+# 
+class Solution(object):
     def twoSum(self, nums, target):
         d = {}
         
